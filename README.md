@@ -1,6 +1,10 @@
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
+<img width="1456" height="1650" alt="Screenshot 2025-10-08 110444" src="https://github.com/user-attachments/assets/e7d66fe4-2359-4c44-8fef-fe7dd22c7b2c" />
+<img width="1387" height="1646" alt="Screenshot 2025-10-08 103022" src="https://github.com/user-attachments/assets/5c8b5a8f-91d2-466f-b36e-f76a2a6955da" />
+<img width="1455" height="1670" alt="Screenshot 2025-10-08 104813" src="https://github.com/user-attachments/assets/2688e831-290b-442d-bad1-0680052737b2" />
+
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
