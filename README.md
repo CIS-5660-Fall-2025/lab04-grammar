@@ -8,6 +8,7 @@ Let's practice using grammars! For this lab, please pull up the L-system node in
 ![](./image/Square%20grammar2.png)
 
 Custom Tree
+
 ![](./image/treephoto1.jpg)
 
 iteration4
