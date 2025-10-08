@@ -1,6 +1,35 @@
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
+![](./image/Wheat%20grammar.png)
+![](./image/Wheat%20grammar2.png)
+
+![](./image/Square%20grammar.png)
+![](./image/Square%20grammar2.png)
+
+Custom Tree
+
+![](./image/treephoto1.jpg)
+
+iteration4
+![](./image/custom_cherryTree1.png)
+iteration5
+![](./image/custom_cherryTree2.png)
+iteration6
+![](./image/custom_cherryTree3.png)
+
+- Main Trunk: Thick, vertical, tapering as it goes up
+- Primary Branches: Major branches that split off at angles
+- Secondary Branches: Smaller branches splitting from primary ones
+- Tertiary Branches: Fine twigs where blossoms cluster
+
+### Rules
+![](./image/Custom_rules.png)
+- Rule 1 : Creates bilateral branching on main trunk
+- Rule 2 : Develops primary branch subdivision
+- Rule 3: Generates fine twigs for blossom clusters
+- Rule 4 : Elongates all segments each iteration
+
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
