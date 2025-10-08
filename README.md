@@ -1,22 +1,42 @@
-# lab04-grammars
-Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+# 1. Wheat grammar puzzle
 
-## 1. Wheat grammar puzzle
-Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
+<img width="800" alt="Wheat" src="https://github.com/user-attachments/assets/e8692d73-90f4-4aba-a7cc-96a97c58f857" />
 
-## 2. Square grammar puzzle
-How about this one? Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
+# 2. Square grammar puzzle
 
-## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+<img width="800" height="250" alt="Squares" src="https://github.com/user-attachments/assets/f6ce85d6-aa70-42da-836e-47438c2ebda3" />
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+# 3. Custom plant (Bleeding Heart)
+
+## Reference
+<img width="400" src="https://github.com/user-attachments/assets/4bb67e84-72e4-43cf-bddc-37c686541f21" />
+
+The full plant is kind of a bush, so I just focused on making the vines and the flower.
+
+Here are the Rules:
+
+## Premise 
+
+[G[-(30)H-(60)H-(60)H+(30)H+(30)H]B][/(120)G[-(30)H-(60)H-(60)H+(30)H+(30)H]B][/(240)G[-(30)H-(60)H-(60)H+(30)H+(30)H]B]
+
+Creates 3 branches, offset by 120 degrees (evenly distributed). Then we angle it up (increasing angle makes it hang lower). We then use our branch rule, and end it with a flower (otherwise end of branch will be bare).
+
+## Flower Rule
+
+B=+(90)+FFFF+(180)[F+(28)F+(28)F+(28)F+(28)F+(28)F+(28)F+(28)F+(28)FFFF-(28)F-(28)-(28)-(28)-(28)-(45)FF+(60)H+(60)H+(60)FF+(30)F+(90)FH+(180)HF-(90)H+(146)F-(40)F+(70)H][F-(28)F-(28)F-(28)F-(28)F-(28)F-(28)F-(28)F-(28)FFFF+(28)F+(28)+(28)+(28)+(28)+(45)FF-(60)H-(60)H-(60)FF-(30)F-(95)FFF+(180)FFF+(95)H-(146)F+(40)F-(70)H]
+
+This rule traces the outline of the flower. The design is slightly assymettrical, so the two capture groups are not simply reversed. We also begin by creating a stem that offsets the flower, and is influenced a little by the angle so we don't get overlap with the vine.
+## Vine 
+
+G=+[-(30)F-(60)F-(60)F+(30)F+(30)F]FFFF+FF+FF-FFF+FFF-FFF[B]G
+
+This one is pretty simple. We offset the rotation, then create the tiny twirly vine on the top in a capture group. After that, we do some forward draws with rotations for the wavy vine, then end with a flower and a recursion.
+
+## N = 1
+<img width="400" alt="bleedingHeart" src="https://github.com/user-attachments/assets/e8402ffc-9131-4b6e-9a4c-8811ae79d8ea" />
+
+## N = 2
+<img width="400" alt="bleedingHeart2" src="https://github.com/user-attachments/assets/ab13b3af-040d-4a93-8935-f3b7c238c145" />
+
+## N = 3
+<img width="400" alt="bleedingHeart3" src="https://github.com/user-attachments/assets/fbf8fed0-fc37-45ba-8d21-63d690f9a987" />
