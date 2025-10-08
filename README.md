@@ -1,4 +1,44 @@
 # lab04-grammars
+
+Name: Tianhong Zhou
+
+## 1. Wheat grammar puzzle
+
+![](imgs/wheat_puzzle.png)
+
+## 2. Square grammar puzzle
+
+![](imgs/square_puzzle.png)
+
+## 3. Custom plant
+
+Components and Intent
+
+1. **Trunk (`A`)**  
+   `A = F[^+FB][\-B][&-FFB]`  
+   - `F` advances the central axis (trunk).  
+   - `[^+FB]` spawns a branch cluster: first **pitch up** (`^`), then **yaw left** (`+`), creating an upward/left lateral that continues into `F B`.  
+   - `[\-B]` applies a **roll left** (`\`) and **yaw right** (`-`) before growing `B`, producing a branch with a distinct banked orientation.  
+   - `[&-FFB]` **pitches down** (`&`), yaws right (`-`), then advances twice before `B`, yielding a lower, outward-reaching scaffold limb.  
+   Together, these three bracketed branches around each trunk step create an asymmetric, spreading crown typical of oak.
+
+2. **Secondary Branching (`B`)**  
+   `B = F[^-FC][&+C][/+C][\-C]`  
+   - `F` advances to set internode length.  
+   - `[^-FC]` pitches up and yaws right into `F C` - an ascending lateral that continues to `C`.  
+   - `[&+C]` pitches down and yaws left - a descending/side limb.  
+   - `[/+C]` rolls right and yaws left - banking changes the azimuth spread.  
+   - `[\-C]` rolls left and yaws right - creating another azimuth.  
+   Collectively, `B` fans children into multiple azimuths with distinct pitch, forming the oak's rounded, horizontally spread canopy.
+
+3. **Twig Level (`C`)**  
+   `C = F[^+B][\-FB][&-B]`  
+   - `F` advances slightly.  
+   - `[^+B]` (up + left) and `[\-FB]` (roll left, yaw right then forward) and `[&-B]` (down + right) generate final-order branching back into `B`.  
+   This closes the hierarchy (C->B->C...), yielding a dense, multi-order branching that still respects the 3D variation.
+
+![](imgs/custom.png)
+
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 ## 1. Wheat grammar puzzle
