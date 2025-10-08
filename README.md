@@ -9,9 +9,9 @@ Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in
 <img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
 
-![p1-1.png](img\p1-1.png)
+![p1-1.png](img/p1-1.png)
 
-![p1-2.png](img\p1-2.png)
+![p1-2.png](img/p1-2.png)
 
 ![p1-3.png](img/p1-3.png)
 
@@ -24,15 +24,15 @@ How about this one? Take a screenshot of your rules.\
 
 ![p2-1.png](img/p2-1.png)
 
-![p2-2.png](img\p2-2.png)
+![p2-2.png](img/p2-2.png)
 
-![p2-3.png](img\p2-3.png)
+![p2-3.png](img/p2-3.png)
 
 ## 3. Custom plant
 
 <img title="" src="img/bamboo.png" alt="bamboo.png" width="248">
 
-![p3-4.png](img\p3-4.png)
+![p3-4.png](img/p3-4.png)
 
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
@@ -59,11 +59,11 @@ Together, these symbols define symmetrical, whorled branching along an upward-gr
 `F` means “move forward.”  
 Replacing it with `FF` doubles the forward step distance, effectively elongating each internode and producing taller, more slender stems characteristic of bamboo-like growth.
 
-![p3-1.png](img\p3-1.png)
+![p3-1.png](img/p3-1.png)
 
-![p3-2.png](img\p3-2.png)
+![p3-2.png](img/p3-2.png)
 
-![p3-3.png](img\p3-3.png)
+![p3-3.png](img/p3-3.png)
 
 ## Submission
 
