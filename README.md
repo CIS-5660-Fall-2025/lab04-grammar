@@ -1,6 +1,24 @@
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
+Avi Serebrenik
+## Solutions
+**Wheat:**
+ - Premise: F
+ - Rule: F=FF[-FF]F[-FF]FF-
+<img width="50%" alt="wheat" src="Wheat.png">
+
+**Geometry**
+ - Premise: -F
+ - Rule: F=F-F+F+F-F
+<img width="50%" alt="geo" src="Geometry.png">
+
+**Custom**
+ - Premise: FX
+ - Rule 1: X=FF[-FXB]BB[+FXB]
+ - Rule 2: B=F
+<img width="50%" alt="custom" src="Custom.png">
+
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
