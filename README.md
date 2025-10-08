@@ -8,10 +8,6 @@ Let's practice using grammars! For this lab, please pull up the L-system node in
 <img height="300" alt="Wheat3" src="https://github.com/user-attachments/assets/2bb94b03-6b37-4748-ad76-e9348a7bbf3d" />
 
 ## 2. Square grammar puzzle
-How about this one? Take a screenshot of your rules.\
-<img height="300" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
-<img height="300" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
-<img height="300" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
 <img height="300" alt="Square1" src="https://github.com/user-attachments/assets/ab6fd8f4-cf40-4468-849f-69eb3f00c5a3" />
 <img height="300" alt="Square2" src="https://github.com/user-attachments/assets/ef00745a-6709-4b9b-84f8-7ff46186d0d9" />
 <img height="300" alt="Square3" src="https://github.com/user-attachments/assets/385403fd-5120-4d3f-ae10-bb474dd2037a" />
