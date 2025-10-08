@@ -1,6 +1,34 @@
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
+## My Solutions
+
+### Puzzle 1
+
+![puzzle 1](Puzzle%201.png)
+
+### Puzzle 2
+
+![puzzle 2](Puzzle%202.png)
+
+### Puzzle 3
+
+For this third puzzle, I try to simulate a bamboo with a little bit complex rule.
+
+![puzzle 3](Puzzle%203%20Custom%20Plant%203%20Iterations.png)
+
+The picture above is generated with 3 iterations.
+
+So in the rules I have rule A for the main branch that is always growing, and then B and C for leaves on left and right differently, as I need them to be in different angles.
+
+Here, B and C does not make iterations themselves as they are leaves, but only called by A when making the main branch.
+
+Finally, I leave one single F after the starting A to simulate a growing head at the top.
+
+The picture below is generate with 5 iterations.
+
+![puzzle 3](Puzzle%203%20Custom%20Plant%205%20Iterations.png)
+
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
