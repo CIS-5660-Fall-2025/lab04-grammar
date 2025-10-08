@@ -1,4 +1,37 @@
-# lab04-grammars
+# Results
+
+## 1. Wheat grammer puzzle
+![](scrPuzzle1.png)
+
+## 2. Square grammer puzzle
+![](scrPuzzle2.png)
+
+## 3. Custom plant
+I tried to design my custom plant with this crimson fractal image as a reference.
+![](ref.jpg)
+### Results
+![](scrPuzzle3_n4.png)
+
+4 Iterations
+
+![](scrPuzzle3_n7.png)
+
+7 Iterations
+
+![](scrPuzzle3_n11.png)
+
+11 Iterations
+
+### Rules
+![](scrPuzzle3_rules.png) 
+
+The rules above drive the plant.  The premise spawns two of the long leaves.  ``C`` is a line with a branch, denoted with ``A``, coming off of the upper part.  The most important part of ``A`` that makes it a branch is ``[&A][^A]``, this tilts the L-System turtle in one direction, creates another branch, then tilts the turtle in the opposite direction and creates another branch.  This results in branches that branch into more branches on additional recursions.  
+The ``B`` at the end of ``C=FFAFB`` expands into another ``FFAFB``, so each recursion, our leaf will get longer with the branches on the end having less recursions.
+The ``/(10)`` in ``A =`` results in a progressive twist of the leaves.  ``+(5)`` in ``B =`` results in a progressive bend of the leaves.  The ``"`` in ``A =`` decreases the length of the lines on deeper recursions on the leaves.
+
+---
+
+# lab03-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 ## 1. Wheat grammar puzzle
