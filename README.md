@@ -1,5 +1,57 @@
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+<img width="992" height="870" alt="Screenshot 2025-10-08 104748" src="https://github.com/user-attachments/assets/aeacfd1a-919b-4969-a288-c0111159df0d" />
+1:
+
+Premise:
+`F`
+
+Rule:
+`F=FF[-FF]F[-FF]FF-`
+
+<img width="992" height="870" alt="Screenshot 2025-10-08 105054" src="https://github.com/user-attachments/assets/3a0e073d-3469-4236-9121-e8cd0a17101e" />
+2:
+
+Premise `+F`
+
+Rule:`F=F+F-F-F+F`
+
+<img width="992" height="870" alt="Screenshot 2025-10-08 115635" src="https://github.com/user-attachments/assets/96b9d597-71ba-4880-82b8-63ecd402f136" />
+<img width="992" height="870" alt="Screenshot 2025-10-08 115645" src="https://github.com/user-attachments/assets/ac0866ce-cfce-4ed2-9819-6ae37d98cdcd" />
+
+3:
+
+Premise: `#(0.6)A`
+
+Rules:
+
+`A=FF[-(90)B]+F-[+(88)B]F+F[+(60)B][-(90)B]-FA:0.65`
+
+`B=F(0.08)CFEB:0.8`
+
+`C=[#(-0.5)[-(60)F][+(60)F]]:0.7`
+
+`C=[-(23)B][+(23)B]:0.1`
+
+`B=[#(-0.5)F]:0.12`
+
+`A=FF[-(90)B]-F+[+(88)B]F-F[+(100)B][-(90)B]+FA`
+
+`C=[+(5)B]`
+
+`B=F(0.06)ED:0.05`
+
+`D=F(0.08)ED:0.8`
+
+`D=[#(-0.5)F]`
+
+`E=[#(-0.5)[-(60)F][+(60)F]]`
+
+`B=[-(5)B]:0.01`
+
+`B=[+(5)B]`
+
+TODO finish writing up explanation
 
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
