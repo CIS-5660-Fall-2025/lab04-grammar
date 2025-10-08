@@ -50,7 +50,6 @@ Together, `[+X][-X][X]` generates three main stems from the same base point — 
 `[+X]` creates a branch rotated left, while `[-\X]` creates a branch rotated right and rolled left (`\`) so that branches are distributed around the axis rather than lying in a single plane.  
 `&` pitches the heading downward, making the next branches slightly droop.  
 The following `F` moves forward again, `[+\X][-X]` generates another left–right pair of branches, then `F` advances once more before `X` recursively calls itself to continue growth.  
-Together, these symbols define symmetrical, whorled branching along an upward-growing main stem.
 
 ---
 
