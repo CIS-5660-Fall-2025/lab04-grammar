@@ -21,12 +21,12 @@ Let's practice using grammars! For this lab, please pull up the L-system node in
 <img height="300" alt="Leavesfinal" src="https://github.com/user-attachments/assets/75c900b5-1ecf-43ce-8b00-99a48837417f" />
 
 #### Iterations
-2 iterations:
-<img height="300" alt="Leaves2" src="https://github.com/user-attachments/assets/adabd94f-5b46-4a18-b176-695177990110" />
-5 iterations:
-<img height="300" alt="Leaves5" src="https://github.com/user-attachments/assets/689d3dc6-b2bd-4ba8-8b93-71c87cce986f" />
-9 iterations:
-<img height="300" alt="Leaves9" src="https://github.com/user-attachments/assets/a845a673-e291-49e4-9884-a84037b86f6f" />
+- 2 iterations:
+  - <img height="300" alt="Leaves2" src="https://github.com/user-attachments/assets/adabd94f-5b46-4a18-b176-695177990110" />
+- 5 iterations:
+  - <img height="300" alt="Leaves5" src="https://github.com/user-attachments/assets/689d3dc6-b2bd-4ba8-8b93-71c87cce986f" />
+- 9 iterations:
+  - <img height="300" alt="Leaves9" src="https://github.com/user-attachments/assets/a845a673-e291-49e4-9884-a84037b86f6f" />
 
 The rules used to create this l system:
 - Premise: Y\(70)Y (initial stem)
