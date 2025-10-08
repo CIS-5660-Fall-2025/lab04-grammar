@@ -1,5 +1,22 @@
 # lab04-grammars
-Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
+
+## Submission
+### Parat 1
+![Part 1](1_1.png)
+![Part 1](1.png)
+
+### Part 2
+![Part 2](2_1.png)
+![Part 2](2.png)
+
+
+###  Part 3
+![Part 3](3_1.png)
+![Part 3](3.png)
+
+- Create a pull request against this repository
+- In your readme, list your solutions and format your README nicely
+- Profit
 
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
@@ -16,7 +33,4 @@ How about this one? Take a screenshot of your rules.\
 ## 3. Custom plant
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
-## Submission
-- Create a pull request against this repository
-- In your readme, list your solutions and format your README nicely
-- Profit
+
