@@ -12,6 +12,9 @@ Eli Submission:
 
 <img width="1909" height="802" alt="image" src="https://github.com/user-attachments/assets/ce23b946-9ada-400e-8493-3d92a31a2fc5" />
 
+Axiom start : f Rule: f=ff[+ff]f[+ff]ff+
+
+
 
 ## 2. Square grammar puzzle
 How about this one? Take a screenshot of your rules.\
@@ -21,11 +24,20 @@ How about this one? Take a screenshot of your rules.\
 
 Eli Submission:
 <img width="1910" height="1004" alt="image" src="https://github.com/user-attachments/assets/69bfef50-2f88-4e9b-8207-7df0a030086b" />
+Axion Start: -f Rule: f=f+f-f-f+f
 
 
 ## 3. Custom plant
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
+Eli Submission:
+<img width="701" height="416" alt="image" src="https://github.com/user-attachments/assets/6ad7171e-5796-4088-8c3e-84658132e5be" />
+
+<img width="521" height="736" alt="image" src="https://github.com/user-attachments/assets/b2af0122-a5e6-49a7-9e14-ee15bb1b6858" />
+
+
+
+Here, I've created a set of rules to recreate the consistent recursive growth of a fern. The base continues to grow and output side ferns as the W rule. The leaves grow at a slower rate under the L rule. D and g are used for marking simple growth without sprouts.
 ## Submission
 - Create a pull request against this repository
 - In your readme, list your solutions and format your README nicely
