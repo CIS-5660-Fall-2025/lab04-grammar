@@ -2,6 +2,27 @@
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 ## 1. Wheat grammar puzzle
+<img src="1.png" width="650"/>
+<img src="1rules.png" width="650"/>
+
+## 2. Square grammar puzzle
+<img src="2.png" width="650"/>
+<img src="2rules.png" width="650"/>
+
+
+## 3. Custom
+n = 1, 3, 6
+
+<img src="3n1.png" width="650"/>
+<img src="3n3.png" width="650"/>
+<img src="3n6.png" width="650"/>
+
+<img src="3rules.png" width="650"/>
+ 
+I created a vine-like plant with spikes for my custom plant. My first grammar rule creates splits each B branch into 2 and also rotates it. My second grammar rule allows the l-system to be recursive and expand with each iteration. 
+
+
+## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
 <img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
