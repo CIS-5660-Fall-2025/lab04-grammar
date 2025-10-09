@@ -1,6 +1,21 @@
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
+## My results:
+![0](0.png)
+![1](1.png)
+![2](2.png)
+![3](3.png)
+![5](5.png)
+![6](6.png)
+![4](4.png)
+![7](7.png)
+
+My grammar rules:
+- branches into two on each iteration and 
+- adds C, which is a smaller circular curveat the root of each branching
+- each branch is long and curvy. I achieved this using + rotations [], and / roll
+
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
