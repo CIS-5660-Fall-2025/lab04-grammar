@@ -7,15 +7,38 @@ Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in
 <img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
 
+
+Eli Submission:
+
+<img width="1909" height="802" alt="image" src="https://github.com/user-attachments/assets/ce23b946-9ada-400e-8493-3d92a31a2fc5" />
+
+Axiom start : f Rule: f=ff[+ff]f[+ff]ff+
+
+
+
 ## 2. Square grammar puzzle
 How about this one? Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
 <img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
 <img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
 
+Eli Submission:
+<img width="1910" height="1004" alt="image" src="https://github.com/user-attachments/assets/69bfef50-2f88-4e9b-8207-7df0a030086b" />
+Axion Start: -f Rule: f=f+f-f-f+f
+
+
 ## 3. Custom plant
 Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
 
+Eli Submission:
+<img width="701" height="416" alt="image" src="https://github.com/user-attachments/assets/6ad7171e-5796-4088-8c3e-84658132e5be" />
+
+<img width="521" height="736" alt="image" src="https://github.com/user-attachments/assets/b2af0122-a5e6-49a7-9e14-ee15bb1b6858" />
+<img width="546" height="671" alt="image" src="https://github.com/user-attachments/assets/e6c2db43-c0a1-497a-b33b-6b8e290e434d" />
+
+
+
+Here, I've created a set of rules to recreate the consistent recursive growth of a fern. The base continues to grow and output side ferns as the W rule. The leaves grow at a slower rate under the L rule. D and g are used for marking simple growth without sprouts.
 ## Submission
 - Create a pull request against this repository
 - In your readme, list your solutions and format your README nicely
