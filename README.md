@@ -19,39 +19,56 @@ Rule:`F=F+F-F-F+F`
 <img width="992" height="870" alt="Screenshot 2025-10-08 115635" src="https://github.com/user-attachments/assets/96b9d597-71ba-4880-82b8-63ecd402f136" />
 <img width="992" height="870" alt="Screenshot 2025-10-08 115645" src="https://github.com/user-attachments/assets/ac0866ce-cfce-4ed2-9819-6ae37d98cdcd" />
 
+Inspiration (a photo I took at an arboretum a couple months ago; I'm uncertain what plant specifically, probably eastern hemlock):
+
+![](https://github.com/user-attachments/assets/92de92b8-50d2-4eaf-a265-371dc0dd3ce4)
+
 3:
 
 Premise: `#(0.6)A`
 
 Rules:
 
-`A=FF[-(90)B]+F-[+(88)B]F+F[+(60)B][-(90)B]-FA:0.65`
+1. `A=FF[-(90)B]+F-[+(88)B]F+F[+(60)B][-(90)B]-FA:0.65`
 
-`B=F(0.08)CFEB:0.8`
+2. `B=F(0.08)CFEB:0.8`
 
-`C=[#(-0.5)[-(60)F][+(60)F]]:0.7`
+3.  `C=[#(-0.5)[-(60)F][+(60)F]]:0.7`
 
-`C=[-(23)B][+(23)B]:0.1`
+4. `C=[-(23)B][+(23)B]:0.1`
 
-`B=[#(-0.5)F]:0.12`
+5. `B=[#(-0.5)F]:0.12`
 
-`A=FF[-(90)B]-F+[+(88)B]F-F[+(100)B][-(90)B]+FA`
+6. `A=FF[-(90)B]-F+[+(88)B]F-F[+(100)B][-(90)B]+FA`
 
-`C=[+(5)B]`
+7. `C=[+(5)B]`
 
-`B=F(0.06)ED:0.05`
+8. `B=F(0.06)ED:0.05`
 
-`D=F(0.08)ED:0.8`
+9. `D=F(0.08)ED:0.8`
 
-`D=[#(-0.5)F]`
+10. `D=[#(-0.5)F]`
 
-`E=[#(-0.5)[-(60)F][+(60)F]]`
+11. `E=[#(-0.5)[-(60)F][+(60)F]]`
 
-`B=[-(5)B]:0.01`
+12. `B=[-(5)B]:0.01`
 
-`B=[+(5)B]`
+13. `B=[+(5)B]`
 
-TODO finish writing up explanation
+Structural details that I noted: central branch with smaller twigs splitting off, flanked by in tiny leaves with occasional additional splits.
+
+I added color changing through loading an image I made of green and brown tones, using # throughout to swap between these palettes to differentiate the branch and leaves. I used the letters A-E to represent different components of this in my rules:
+
+A is used to make the central branch, with rule (1) and (6) progressing it forward and making Bs off to the side. (1) veers slightly right; (6) is a similar rule with different angles and veers slightly to the left. (1) has a higher probability of occurring, so the branch on average will curve slightly right over many generations.
+
+B represents the twigs that split off, which primarily (via (2)) step forward and make Cs and Es. It also has a chance to stop abruptly, with one leaf on the end, via rule (5), a chance to make a D via (8) and two very slim chances to rotate slightly via rules (12) and (13). 
+
+C has 3 possiblities: the main one is (3) creating two leaves on each side. However it also has (4), splitting the twig into two additional branches, and (7), splitting off one additional branch.
+
+E is a version of C which only has the first rule (11), hence it just makes two leaves on each side. B's first rule alternates in creating it and Cs so that we always have at least a bit of a gap before another set can split off into separate branches.
+
+D is similarly a reduced version of B—it makes twigs which only either go straight forward creating leaves on each side (9) or stop with one leaf on the end (10). The chance for B to create this helps the clusters of branches that build up have some that stop splitting and just carry on linearly, so they don't just keep splitting more and more.
+
 
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
