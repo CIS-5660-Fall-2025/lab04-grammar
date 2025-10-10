@@ -1,22 +1,55 @@
 # lab04-grammars
+
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 ## 1. Wheat grammar puzzle
-Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949853-cf2306b3-3537-4c24-91b5-0a3083bc87c0.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949859-5e432b4b-f18d-48b5-a9e9-8d7dba255955.png">
+
+<img width="200" alt="square1" src="images/1-1.png">
+<img width="200" alt="square2" src="images/1-2.png">
+<img width="200" alt="square3" src="images/1-3.png">
+
+<img width="200" alt="square2" src="images/1r.png">
+<img width="200" alt="square3" src="images/1rr.png">
 
 ## 2. Square grammar puzzle
-How about this one? Take a screenshot of your rules.\
-<img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949895-87cdfb43-da7c-4867-ab1b-107e1ba9d2a7.png">
-<img width="200" alt="square2" src="https://user-images.githubusercontent.com/1758825/193949904-a9cdfe0f-319e-4ca8-9935-dd338217a7cf.png">
-<img width="200" alt="square3" src="https://user-images.githubusercontent.com/1758825/193949910-928e5993-ce26-4681-80f8-ffeb54be4dcf.png">
+
+<img width="200" alt="square1" src="images/2-1.png">
+<img width="200" alt="square2" src="images/2-2.png">
+<img width="200" alt="square3" src="images/2-3.png">
+
+<img width="200" alt="square2" src="images/2r.png">
+<img width="200" alt="square3" src="images/2rr.png">
 
 ## 3. Custom plant
-Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant. 
+
+Choose a plant in the world. Working off a reference, design a grammar that mimics the structure of that plant. Unlike our simple puzzles, please use multiple rules for greater complexity. Think carefully about the structure of your grammar! EXPLAIN the structure of your plant in the README. What are the components? What do each of the rules do? Be sure to also include images of a few iterations of your output plant.
+
+I tried to replicate this sakura branch... it's not the most accurate but I did do my best. And I added some "blossoms" as well through it.
+
+<img width="200" alt="square3" src="images/sakura.jpg">
+
+<table>
+  <tr>
+    <td align="center"><b>Iteration 2</b></td>
+    <td align="center"><b>Iteration 4</b></td>
+    <td align="center"><b>Iteration 6</b></td>
+    <td align="center"><b>Iteration 8</b></td>
+    <td align="center"><b>Iteration 10</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/3-1.png" width="180"></td>
+    <td><img src="images/3-2.png" width="180"></td>
+    <td><img src="images/3-3.png" width="180"></td>
+    <td><img src="images/3-4.png" width="180"></td>
+    <td><img src="images/3-5.png" width="180"></td>
+  </tr>
+</table>
+
+<img width="200" alt="square2" src="images/3r.png">
+<img width="200" alt="square3" src="images/3rr.png">
 
 ## Submission
+
 - Create a pull request against this repository
 - In your readme, list your solutions and format your README nicely
 - Profit
