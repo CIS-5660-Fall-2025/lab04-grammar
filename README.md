@@ -24,6 +24,7 @@ Angle: 90
 
 ### Custom plant
 ![](images/3-4.png)
+
 This picture shows the l-system's generation when iteration = 8.
 
 I divided the tree into two main components: the **trunk** and the **branches**. At the end of each trunk segment, 3 branches evenly spaced in three directions grow outwards. Each branch then generates two smaller branches. In my rules, `A` represents a trunk layer which includes 3 branches at that level. `A` repeats itself recursively at the end so that the tree can continue growing. `B` represents a branch that includes two smaller branches. It also repeats itself at the end of each smaller branch.
