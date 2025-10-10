@@ -3,9 +3,7 @@ Let's practice using grammars! For this lab, please pull up the L-system node in
 
 ## Result
 ### Puzzle 1
-<img height="160" src="images/1-1.png">
-<img height="160" src="images/1-2.png">
-<img height="160" src="images/1-3.png">
+<img height="160" src="images/1-1.png"> <img height="160" src="images/1-2.png"> <img height="160" src="images/1-3.png">
 
 Rules:
 ```
@@ -15,9 +13,7 @@ Angle: 20
 ```
 
 ### Puzzle 2
-<img height="160" src="images/2-1.png">
-<img height="160" src="images/2-2.png">
-<img height="160" src="images/2-3.png">
+<img height="160" src="images/2-1.png"> <img height="160" src="images/2-2.png"> <img height="160" src="images/2-3.png">
 
 Rules:
 ```
