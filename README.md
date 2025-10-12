@@ -1,3 +1,23 @@
+**Quiz 1**
+![](./img/quiz1.png)
+
+**Quiz 2**
+![](./img/quiz2.png)
+
+**Quiz 3: Cherry Tree**
+![](./img/quiz3.png)
+
+- Rule 1: Root trunk
+- Rule 2: Base branch of canopy
+- Rule 3: Large Branches
+- Rule 4: Small Branches
+- Rule 5: Thin Branches with flowers
+
+**Reference Picture**
+
+![](./img/ref.jpeg)
+
+
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
