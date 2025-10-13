@@ -3,8 +3,8 @@ Let's practice using grammars! For this lab, please pull up the L-system node in
 
 ## Submission
 ## 1. Wheat Grammar Puzzle
-<img width="500" alt="wheat1" src="wheat3.png">
-<img width="500" alt="wheat2" src="wheat3.png">
+<img width="500" alt="wheat1" src="wheat1.png">
+<img width="500" alt="wheat2" src="wheat2.png">
 <img width="500" alt="wheat3" src="wheat3.png">
 
 ## 2. Square Grammar Puzzle
