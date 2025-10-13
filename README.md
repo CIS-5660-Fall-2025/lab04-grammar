@@ -1,6 +1,25 @@
 # lab04-grammars
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
+## Submission
+## 1. Wheat Grammar Puzzle
+<img width="200" alt="wheat1" src="wheat3.png">
+<img width="200" alt="wheat2" src="wheat3.png">
+<img width="200" alt="wheat3" src="wheat3.png">
+
+## 2. Square Grammar Puzzle
+<img width="200" alt="wheat1" src="square1.png">
+<img width="200" alt="wheat2" src="square2.png">
+<img width="200" alt="wheat3" src="square3.png">
+
+## 3. Custom Grammar Puzzle
+<img width="200" alt="wheat1" src="bigBlueStemReference.jpg">
+<img width="200" alt="wheat2" src="bigBlueStemReference2.jpg">
+<img width="200" alt="wheat3" src="custom.png">
+<img width="200" alt="wheat1" src="customGeometry.png">
+<img width="200" alt="wheat2" src="customValues.png">
+<img width="200" alt="wheat3" src="customRules.png">
+
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
