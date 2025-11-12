@@ -1,4 +1,38 @@
-# lab04-grammars
+# L-System Lab Submission - Nico Kong
+
+## Grammar 1
+
+Solution: <code>F = FF[-FF]F[-FF]FF-</code>
+
+![](l1.png)
+
+## Grammar 2
+
+Solution: <code>F = F+F-F-F+F</code>
+
+![](l2.png)
+
+## Custom Plant: Bonzai Tree
+
+Result:
+
+![](l3.png)
+
+Grammar:
+
+![](l4.png)
+
+Where:
+- Rule 1 draws the left curve and creates a left branch
+- Rule 2 draws the right curve and creates aright branch
+- Rule 3 makes each branch grow bigger locally
+
+Reference:
+
+![](plant.png)
+
+
+# Assignment Description
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 ## 1. Wheat grammar puzzle
